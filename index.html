@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Success Certificate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="success.ico">
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" alt="Organization Img">
+        <h1>Get your certificate of Success!</h1>
+
+    </header>
+    <main>
+
+        <label for="name">Type Your Name</label>
+        <input required type="text" name="Name" autocomplete="name" placeholder="Type Your Full Name" id="name" minlength="3"
+            maxlength="16">
+        <Button id="submitBtn">Get Certificate</Button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>Made With Love In India ❤️</h3>
+
+
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
